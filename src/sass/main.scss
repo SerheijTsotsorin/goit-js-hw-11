@@ -5,3 +5,81 @@
 
 // Стили для файла с примером HTML-фрагмента
 @import './example';
+.load-more.is-hidden {
+  display: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.search-form {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(23, 132, 175);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+#search-form input {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  margin-bottom: 24px;
+}
+
+.load-more {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: rgba(0, 238, 255, 0.89);
+}
